@@ -1,0 +1,162 @@
+/* Référence : iPad : tablette la plus utilisée en 2021 */
+#main-wrapper {
+    margin: 26px 0 0 0;
+}
+
+/* header */
+header {
+    justify-content: space-around;
+    column-gap: 25%;
+}
+
+/* navigation */
+#nav-desk a {
+    font-size: 16px;
+}
+
+#nav-desk a:active {
+    color: var(--blueBooki);
+    border-top: solid 4px var(--blueBooki);
+}
+
+/* search */
+#search {
+    padding: 0px 25px;
+}
+
+#search label {
+    font-size: 2.6vmin;
+}
+
+#search p, #location, #search input, #search button {
+    font-size: 2vmin;
+}
+
+/* filtres */
+#filter-wrapper {
+    display: none;
+}
+
+#filter-wrapperOD {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 35px;
+}
+
+.filter {
+    margin: 0;
+}
+
+#eco-fam {
+    display: flex;
+}
+
+.title-filter, #info i {
+    font-size: 1.8vmin;
+}
+
+/* main */
+main {
+    flex-direction: column;
+    height: 1450px;
+}
+
+#heberge-wrapper, #pop-wrapper {
+    width: 100%;
+    border-radius: 0;
+}
+
+#heberge-wrapper {
+    order: 2;
+    background-color: white;
+}
+
+main a:active {
+    color: var(--blueBooki);
+}
+
+/* main font-size */
+.title-main {
+    font-size: 2.2vmin;
+}
+
+#more {
+    font-size: 2.2vmin;
+}
+
+.text-heberge h3 {
+    font-size: 2vmin;
+}
+
+.text-heberge p {
+    font-size: 1.8vmin;
+}
+
+.text-pop h3 {
+    font-size: 2.2vmin;
+}
+
+.text-pop p {
+    font-size: 2vmin;
+}
+
+.stars {
+    font-size: 2vmin;
+}
+
+/* activités */
+#act-wrapper {
+    padding: 60px 30px;
+}
+
+#act-wrapper a:active  {
+    color: var(--blueBooki);
+}
+
+#act-wrapper h2 {
+    font-size: 3vmin;
+}
+
+#container {
+    flex-direction: column;
+}
+
+.act-col {
+    width: 100%;
+}
+
+.card-act {
+    height: 350px;
+}
+
+.card-act img{
+    height: 82%;
+}
+
+.card-act h4 {
+    font-size: 2.3vmin;
+    padding-left: 20px;
+}
+
+/* footer */
+footer {
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+footer div {
+    padding: 50px 30px 50px 30px;
+}
+
+footer h3 {
+    font-size: 2.8vmin;
+}
+
+footer a {
+    font-size: 2.6vmin;
+}
+
+#last {
+    display: none;
+}

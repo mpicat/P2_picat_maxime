@@ -1,0 +1,166 @@
+/* Référence : iPhone 11 : téléphone le plus vendu en 2021 */
+#main-wrapper {
+    margin: 0;
+}
+
+/* header */
+header {
+    display: block;
+}
+
+header img {
+    width: 150px;
+    height: 70px;
+    margin: 30px auto 50px auto;
+    display: block;
+}
+
+/* navigation*/
+#nav-desk {
+    display: none;
+}
+
+#nav-phone {
+    display: flex;
+    font-size: 5vmin;
+}
+
+#nav-phone div {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border-bottom: solid 3px var(--greyBooki);
+}
+
+#nav-phone a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 15px;
+}
+
+#nav-phone div:active {
+    border-bottom: solid 3px var(--blueBooki);
+}
+
+#nav-phone a:active {
+    color: var(--blueBooki);
+}
+
+/* search */
+#search {
+    margin: 35px 0;
+}
+
+form {
+    margin-top: 35px;
+}
+
+#magni {
+    display: inline;
+    border: none;
+    padding: 12px;
+    width: 45px;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--blueBooki);
+    position: relative;
+    left: -10px;
+}
+
+#rechercher {
+    display: none;
+}
+
+#search label {
+    font-size: 6vmin;
+}
+
+#search p, #location, #search input, #search button,#info i {
+    font-size: 4vmin;
+}
+
+.title-filter {
+    font-size: 4.5vmin;
+}
+
+/* main */
+main {
+    height: 2270px;
+}
+
+.title-main {
+    font-size: 4vmin;
+}
+
+#more {
+    font-size: 5vmin;
+}
+
+.text-heberge h3 {
+    font-size: 4.5vmin;
+}
+
+.text-heberge p {
+    font-size: 4vmin;
+}
+
+.text-pop h3 {
+    font-size: 4.5vmin;
+}
+
+.text-pop p {
+    font-size: 4vmin;
+}
+
+.stars {
+    font-size: 3.5vmin;
+}
+
+/* hébergements */
+.heberge-line {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-bottom: 20px;
+}
+
+.heberge-line a {
+    width: 100%;
+}
+
+.card-heberge {
+    height: 220px;
+}
+
+/* populaire */
+#pop-col a {
+    display: flex;
+    height: 150px;
+}
+
+/* activités */
+#act-wrapper h2 {
+    font-size: 6vmin;
+}
+
+.card-act {
+    height: 190px;
+}
+
+.card-act h4 {
+    font-size: 4.5vmin;
+    padding: 15px 0 15px 15px;
+}
+
+.card-act img{
+    height: 75%;
+}
+
+/* footer */
+footer h3 {
+    font-size: 6.5vmin;
+}
+
+footer a {
+    font-size: 5.5vmin;
+}
